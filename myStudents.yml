@@ -1,0 +1,26 @@
+---
+student:
+- name: ansil
+  phno: 8989898989
+  address: 
+   doorno: 44
+   street: 2
+   pincode: 500038
+
+
+- name: sunil
+  phno: 7878787878
+  address:
+     doorno: 43
+     street: 2
+     pincode: 500038
+
+
+- name: venil
+  phno: 78787878
+  address: 
+        doorno: 46
+        street: 5
+        pincode: 500056
+
+
