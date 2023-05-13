@@ -15,3 +15,8 @@
     apt:
        name: tree
        state: absent
+
+  - name: i want to install wget on ubuntu ansibl nodes
+    apt:
+      name: wget
+      state: present
