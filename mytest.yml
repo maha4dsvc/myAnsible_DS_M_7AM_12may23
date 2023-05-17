@@ -1,0 +1,8 @@
+---
+- hosts: 172.31.34.70
+  become: yes
+  tasks:
+  - name: install httpd
+    yum: 
+      name: httpd
+      state: started
