@@ -4,5 +4,5 @@
   tasks:
   - name: install httpd
     ansible.builtin.yum:
-       name: httpd
-       state: latest
+       name: httpd>=2.4
+       state: present
