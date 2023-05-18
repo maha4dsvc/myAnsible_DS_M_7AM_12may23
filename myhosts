@@ -13,6 +13,16 @@
 172.31.45.212
 
 
+[mywebservers:vars]
+myvar01= abc123
+mywebpackonubuntu= apache22222222222222222222222222222222222
+mywebpackonredhat= httpd
+
+
+
+
+
+
 
 
 
