@@ -15,7 +15,7 @@
     when: ansible_os_family =="Debian"
 
   - name: i want to install webserver in "RedHat" nodes
-    yum:
+    ansible.builtin.dnf:
       name: httpd
       state: present
     when: ansible_os_family =="RedHat"
@@ -24,7 +24,7 @@
        name: httpd
        state: started
     when: ansible_os_family =="RedHat"
-    
+
 
 
     
