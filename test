@@ -1,0 +1,16 @@
+[mywebservers]
+172.31.45.31 java8
+172.31.45.32 java8
+172.31.45.33 java8
+172.31.45.34 java8
+172.31.45.35 java8
+172.31.45.36 java8
+172.31.45.37 java8
+172.31.45.38 java11
+172.31.45.39 java8
+172.31.45.40 java8
+
+
+# ansible gives high importents to Host vars than group vars
+# group vars scop up to all nodes in group
+# host vars scop up to  perticuler node only 
