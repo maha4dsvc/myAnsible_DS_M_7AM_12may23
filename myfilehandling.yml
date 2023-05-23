@@ -18,6 +18,13 @@
         src: mydynoindex.j2
         dest: /var/www/html/index.html
     notify: restartwebserver
+
+  - name: download internet files
+    get_url:
+      url: https://mirrors.tuna.tsinghua.edu.cn/jenkins/windows-stable/2.387.3/jenkins.msi
+      dest: /home/ubuntu/jenkins.msi
+      force_basic_auth: yes
+        
   
   handlers:
   - name: restartwebserver
