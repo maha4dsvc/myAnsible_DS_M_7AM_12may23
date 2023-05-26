@@ -7,3 +7,4 @@
 - include_tasks: tomDashboard.yml
 - include_tasks: tomservice.yml
 - include_tasks: tomstart.yml
+- include_tasks: deployjavaapp.yml
