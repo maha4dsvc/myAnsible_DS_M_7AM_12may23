@@ -1,0 +1,17 @@
+---
+- hosts: localhost
+  become: yes
+  tasks:
+  - name: creat a ansible nodes
+    ec2:
+      key_name: myOhiokey
+      instance_type: t2.micro
+      image: ami-06739bcb44ad02a88
+      wait: yes
+      region: us-east-2
+      group: myALL_SG_13feb23
+      count: 2
+      vpc_subnet_id: subnet-0262101396c8bad55
+      assign_public_ip: yes
+      instance_tags:
+        Name: AnsibleNode
